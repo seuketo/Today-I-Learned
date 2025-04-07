@@ -31,12 +31,19 @@
   <summary>코드 내용</summary>
 
   public long combination(int M_value, int N_value){
+  
         long result = 1;
+        
         for (int i = 1; i <= N_value; i++){
+        
             result *= M_value - i + 1;
+            
             result /= i;
+            
         }
+        
         return result;
+        
     }
     
     </details>
