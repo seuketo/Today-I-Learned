@@ -23,3 +23,18 @@
   #### 🔍 해결 방법
     - 순서가 없는 M개의 사이트를 N개의 사이트와 연결할 수 있는 경우의 수를 구하기 위해 조합을 사용.
     - C(M, N) = M! / (N! * (M - N)!) ▶ C(M, N) = M * ... * (M - N + 1) / N!
+
+  #### 🔑 알게된 코드
+    - 조합 코드를 활용할 수 있는 방법에 대해 알게 되었다.
+    <details>
+
+    <summary>코드 내용</summary>
+        public long combination(int M_value, int N_value){
+        long result = 1;
+        for (int i = 1; i <= N_value; i++){
+            result *= M_value - i + 1;
+            result /= i;
+        }
+        return result;
+    }
+    </details>
