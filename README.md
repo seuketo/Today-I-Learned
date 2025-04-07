@@ -26,17 +26,4 @@
 
   #### 🔑 알게된 코드
     - 조합 코드를 활용할 수 있는 방법에 대해 알게 되었다.
-  <details>
-
-  <summary>코드 내용</summary>
-  '''
-  public long combination(int M_value, int N_value){
-        long result = 1;
-        for (int i = 1; i <= N_value; i++){
-            result *= M_value - i + 1;
-            result /= i;
-        }
-        return result;
-    }
-    '''
-    </details>
+    <script src="https://gist.github.com/seuketo/3fecb84a5d54775104ae1cab0e2e3df8.js"></script>
