@@ -26,4 +26,4 @@
 
   #### 🔑 알게된 코드
     - 조합 코드를 활용할 수 있는 방법에 대해 알게 되었다.
-    <script src="https://gist.github.com/seuketo/3fecb84a5d54775104ae1cab0e2e3df8.js"></script>
+  <script src="https://gist.github.com/seuketo/3fecb84a5d54775104ae1cab0e2e3df8.js"></script>
